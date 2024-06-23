@@ -1,7 +1,112 @@
-/*Top overlay section*/
+/* Fonts */
 
-.top-overlay {
-    position: relative;
+.playfair-display-fonts {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
 
+/* Genreal informations */
+
+body{
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 20px;
+	color: #62586d;
+	background: #fff;
+	max-width: 1920px;
+	margin:0 auto;
+}
+
+@media(min-width: 1200px){
+	.container{
+		width: 1170px;
+	}
+}
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+
+
+::before, ::after{
+	box-sizing: border-box;
+}
+
+.container::before{
+	display: table;
+	content: " ";
+}
+
+.container::before, .container::after{
+	clear: both;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	color:#62586d;
+    font-size: 30px;
+	font-family: 'Playfair Display', sans-serif;
+	text-transform: capitalize;
+}
+p {
+	margin: 0;
+	line-height:1.8;
+	color:#b2aabb;
+	font-size:14px;
+	font-family: 'Playfair Display', sans-serif;
+}
+
+a, a:hover, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+
+.copyright-link{
+	color: #FFAC1C;
+	text-decoration: none;
+}
+
+.copyright-link:hover{
+	color: #FFAC1C;
+	text-decoration: underline;
+}
+
+img{border:none;max-width:100%; height:auto;}
+
+select,input,textarea,button{box-shadow:none;outline:0!important;}
+
+button {background: transparent;border: 0;}
+
+html,body{
+    height: 100%;
+	position: relative;
+}
+
+/*---------------------*/
+
+.center{
+	text-align: center;
+}
+
+.contact{
+	padding-top: 50px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+}
+.container{
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section-head {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #3443eb;
+	font-size: 30px;
+	font-weight: 500;
 
 }
